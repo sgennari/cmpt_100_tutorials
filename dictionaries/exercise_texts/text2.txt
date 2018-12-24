@@ -1,0 +1,11 @@
+Write this one from scratch!
+
+classlist.txt is a text file, with each line containing one student name and a final letter grade. For example:
+
+J. C. R. Licklider,C-
+Barbara Liskov,A
+Ramon Llull,A
+John Mauchly,B
+...
+
+Write the function which will print the class list in order, sorted by the person's grade.

@@ -1,0 +1,9 @@
+Write this one from scratch!
+
+• Create a program which will produce a histogram of word lengths in a given text file - that is, for each possible word length in the file it will output the number of words with this length.
+
+• Hint: Iterate over each alphabetical word produced with split(), determine the word length, and add 1 to the corresponding count in a dictionary, where the key is the length of the word. You may reuse your code from vocab.py created in class.
+
+• Test your program with several sample files.
+
+• The name of the input file is passed as a command-line argument
