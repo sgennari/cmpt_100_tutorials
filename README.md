@@ -27,3 +27,6 @@ It is generally desirable that you keep your work consistent with the template, 
 
 Here is a link to the original web folder containing all the problems from Fall 2018:
 [link](https://drive.google.com/a/simons-rock.edu/file/d/1wNJDPhKalXr6tE3O8Es8hRRE8VoDf6B4/view?usp=sharing)
+
+And here is how it could look like with repl.it:
+[link](http://hope.simons-rock.edu/~mbarsky/intro19/tutorials/repl.it/repl.it.example/)
