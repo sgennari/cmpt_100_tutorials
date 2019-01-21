@@ -1,39 +1,59 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"/>
 <html>
 <head>
-<title>CMPT 100 Labs</title>
+<title>Lab 1: functions</title>
 <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
-<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="../css/style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="js/main.js"></script>
 </head>
 <body>
 <div id="container">
-<div id="header"><h1>CMPT 100 Labs</h1></div>  
-  <div id="mainnavigation">    
-    <ol>
-		<li><a href="functions/index.html">Functions</a>
-		</li>		
-		<li><a href="loops1/index.html">Loops I: <em>while</em> and simple <em>for</em></a>
-		</li>
-		<li><a href="loops2/index.html">Loops II: <em>nested loops and loops over indexes</em></a>
-		</li>		
-		<li><a href="loops3/index.html">Loops III: <em>nested loop patterns and loops over adjacent indexes</em></a>
-		</li>
-		<li><a href="files_dictionaries/index.html">Files and dictionaries</a>
-		</li>		
-		<li><a href="dictionaries/index.html">Dictionary patterns: sorting, inverting, removing duplicates</a>
-		</li>
-		<li><a href="objects1/index.html">Objects I: basics</a>
-		</li>		
-		<li><a href="objects2/index.html">Objects II: inheritance, composition, interactive objects</a>
-		</li>
-		<li><a href="recursion/index.html">Recursion</a>
-		</li>
-	</ol>		
+
+<div id="header"><br><a href="../index.html"><button class="home" style="font-size:20px"><i class="fa fa-home" style="font-size:36px"></i>Home</button></a>
+	<h1><a href="http://hope.simons-rock.edu/~mbarsky/intro18/tutorials/functions/FunctionExercises.pdf">Lab 1: functions</a></h1>
+</div>
+  <div id="wrapper">
+    <div id="content">
+	  <iframe id="contentframe" height="455px" width="100%" src="functions_intro.html" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
+	  <div id="buttons" style="display: none;">
+		  <button onclick="show_task()">Solve</button>
+		  <button onclick="show_hint()">Hint</button>
+		  <button onclick="show_solution()">Solution</button>
+		  <button onclick="show_explanation()">Explanation</button>
+		  <button id="completed" onclick="mark_completed()">Do not show again</button>
+	  </div>
+    </div>
   </div>
-  <div id="extra">
-    <p><strong>Overall progress</strong></p>
-    <p>Student progress grid.</p>
-  </div>
+  <div id="navigation"> 
+  <a href="">Functions</a>
+			<ol>
+			<li><a href="javascript:load_problem(0)">Number of cents</a>
+			</li>
+			<li><a href="javascript:load_problem(1)">Total slices</a>
+			</li>			
+			<li><a href="javascript:load_problem(2)">Calculate tax</a>
+			</li>
+			<li><a href="javascript:load_problem(3)">Total seconds</a>
+			</li>
+			<li><a href="javascript:load_problem(4)">Smaller name</a>
+			</li>
+			<li><a href="javascript:load_problem(5)">Format name</a>
+			</li>
+			<li><a href="javascript:load_problem(6)">Phonebook listing</a>
+			</li>
+			<li><a href="javascript:load_problem(7)">Ticket price</a>
+			</li>
+			<li><a href="javascript:load_problem(8)">Calculate grade</a> 
+			</li>
+			<li><a href="javascript:load_problem(9)">Same abs</a>
+			</li>
+			<li><a href="javascript:load_problem(10)">Can vote</a>
+			</li>
+			<li><a href="javascript:load_problem(11)">Same ends</a>
+			</li>
+			</ol>		
+  </div>  
   <div id="footer">
     <p>Footer</p>
   </div>
